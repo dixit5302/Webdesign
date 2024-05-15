@@ -6,15 +6,13 @@
     <style>
       body{
         background-color: aquamarine;
-        width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
       }
       .main-container{
         display: grid;
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(3, 770px);
         gap: 80px;
+        margin-left: 180px;
       }
       .main-container div{
         border: 2px solid red;
@@ -27,17 +25,17 @@
       @media (max-width: 480px){
         .main-container{
           display: block;
-          margin: 20px;
+           margin-left: 30px; 
         }
         .main-container div{
         display: block;
         border: 2px solid red;
-        width: 230px;
+        width: 340px;
         height: 100%;
         text-align: center;
         padding: 10px 10px;
         background-color: rgb(247, 248, 249);
-        margin: 30px;
+        margin-bottom: 30px;
         overflow: scroll;
       }
       }
